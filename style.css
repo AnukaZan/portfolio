@@ -1,0 +1,66 @@
+:root{
+    --primary-color: rgb(212, 119, 162);
+    --secondary-color: rgb(182, 66, 182);
+    --tertiary-color: rgb(248, 230, 230);
+
+}
+
+*{
+    margin: 5;
+    padding: 5;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-image: url("../portfolio/images/anuka.jpg");
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    background-position: 80%;
+    font-size:large;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    display:flex;
+}
+
+header nav {
+display: flex;
+justify-content: flex-end;
+color:white;
+list-style: none;
+
+}
+
+header nav a{
+    color:white;
+    list-style:none;
+}
+
+header nav li{
+    list-style:none;
+    color:white;
+    display:flex;
+    justify-content: space-between;
+}
+
+.hero{
+    background-image: url("../portfolio/images/anuka.jpg");
+    background-size:cover;
+    background-position:80%;
+    background-attachment: fixed;
+
+    display:flex;
+
+    flex-wrap:wrap;
+    align-items:flex-start;
+}
+
+.hero p{
+    color:white;
+    justify-content:flex-start;
+    font-size:25px;
+}
