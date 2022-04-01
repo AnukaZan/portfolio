@@ -1,6 +1,6 @@
 :root{
-    --primary-color: rgb(212, 119, 162);
-    --secondary-color: rgb(182, 66, 182);
+    --primary-color: rgb(233, 178, 204);
+    --secondary-color: rgb(58, 136, 103);
     --tertiary-color: rgb(248, 230, 230);
 
 }
@@ -16,41 +16,68 @@ body{
 }
 
 header {
+    padding: 20px 20px; /* makes the header larger as a result of the padding */
     background-image: url("../portfolio/images/anuka.jpg");
-    background-size:cover;
-    background-position:center;
+    background-size:cover; /* bkgr img completely covers the container leaving no empty space*/
+    /*background-position:center;*/
     background-attachment:fixed;
-    background-position: 80%;
+    background-position: 70%; /* 0% - left top edge of img align with container, 100% right bottom. if 2 values, then x and y */
     font-size:large;
-    flex-wrap:wrap;
-    justify-content: space-around;
+    flex-wrap:wrap; /* wrap if content doesnt fit*/
+    justify-content: space-between; /* space-around -add space everywhere, space-between - add space between children*/
     display:flex;
+    position: -webkit-sticky;
+    position:sticky;
+}
+
+header h1{
+    background:var(--secondary-color);
+    color:white;
+    padding: 10px 10px;
 }
 
 header nav {
-display: flex;
-justify-content: flex-end;
-color:white;
-list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    color:white;
+    margin: 7px 0;
 
 }
 
-header nav a{
+header a{
     color:white;
     list-style:none;
+    text-decoration: none; /* removes the underline in header links*/
 }
 
-header nav li{
+header nav ul{
     list-style:none;
     color:white;
-    display:flex;
-    justify-content: space-between;
+    display:flex; /*made the nav lists go horizontal */
+    flex-wrap:wrap;
+    justify-content: space-between;  /*aligns across x*/
+    align-items: center; /*aligns across y*/
+}
+
+header nav li a{
+    padding: 5px 15px;
+    font-size:2vw;
+}
+
+header nav li a:hover{
+    background:var(--secondary-color);
+    font-style: bold;
+    border-radius:15px; /*makes edges rounder*/
+}
+
+section{
+    padding: 50px;
 }
 
 .hero{
     background-image: url("../portfolio/images/anuka.jpg");
     background-size:cover;
-    background-position:80%;
+    background-position:70%;
     background-attachment: fixed;
 
     display:flex;
@@ -63,4 +90,20 @@ header nav li{
     color:white;
     justify-content:flex-start;
     font-size:25px;
+}
+
+.about-me{
+    width: 80%;
+    display:flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.section-title{
+    min-width: 100px;
+}
+
+.section-text{
+    min-width:auto;
 }
