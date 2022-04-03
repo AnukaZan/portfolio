@@ -21,7 +21,7 @@ header {
     background-size:cover; /* bkgr img completely covers the container leaving no empty space*/
     /*background-position:center;*/
     background-attachment:fixed; /* you keep scrolling but image is stationary & gets scrolled past*/
-    background-position: 70%; /* 0% - left top edge of img align with container, 100% right bottom. if 2 values, then x and y */
+    background-position: 40%; /* 0% - left top edge of img align with container, 100% right bottom. if 2 values, then x and y */
     font-size:large;
     flex-wrap:wrap; /* wrap if content doesnt fit*/
     justify-content: space-between; /* space-around -add space everywhere, space-between - add space between children*/
@@ -34,6 +34,7 @@ header h1{
     background:var(--secondary-color);
     color:white;
     padding: 10px 10px;
+    font-size:36px;
 }
 
 header nav {
@@ -60,8 +61,8 @@ header nav ul{
 }
 
 header nav li a{
-    padding: 5px 20px;
-    font-size:1.5vw;
+    padding: 5px 30px;
+    font-size:1.3vw;
 }
 
 header nav li a:hover{
@@ -74,7 +75,7 @@ header nav li a:hover{
 .hero{
     background-image: url("../portfolio/images/anuka.jpg");
     background-size:cover;
-    background-position:70%;
+    background-position:40%;
     background-attachment: fixed;
     padding: 12vw;
     display:flex;
@@ -95,35 +96,107 @@ header nav li a:hover{
 }
 
 .about-me{
+    margin: 50px auto;
+    padding-bottom: 50px;
     width: 80%;
-    display:flex;
-    flex-wrap:wrap;
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
+
 
 }
 
-.section-title{
-    width: 200px;
-    display:flex;
-    margin: 0px;
-    border-right: 5px dotted var(--secondary-color);
-
-}
-
-.section-title h2{
-    
-    /*padding: 0px 50px;*/
-    width: 100%;
-    
+.about-me h2 {
+    font-size: 30px;
+    flex: 1 30%;
+    border-right: 3px dotted var(--secondary-color);
 }
 
 .section-text{
-    width:70%;
-    padding:50px 0px;
+    flex: 2 70%;
     flex-wrap:wrap;
     display:flex;
-    justify-content:space-between;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+/* MY WORKS */
+.my-work{
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.my-work h2{
+    font-size: 30px;
+    border-right: 3px dotted var(--secondary-color);
+    flex: 1 30%;
+}
+
+.works{
+    flex: 2 70%;
+    flex-wrap:wrap;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.work-1{
+    flex: 2 100%;
+    max-width: 100%;
+}
+
+
+.work{
+    flex: 1 50%;
+    max-width: 100%;
+    padding: 5px;
+}
+
+.work-img img{
+    max-width: 100%;
+    border: 5px solid var(--secondary-color);
+    object-fit: cover;
+}
+
+.work-title{
+    position: relative;
+    background-color:var(--secondary-color);
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    top: -40px;
+}
+
+.contact-me{
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-me h2{
+    font-size: 30px;
+    border-right: 3px dotted var(--secondary-color);
+    flex: 1 30%;
+}
+
+.contact-links{
+    flex: 2 70%;
+    flex-wrap:wrap;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .contact-me ul {
@@ -136,23 +209,13 @@ header nav li a:hover{
 .contact-me li a {
     color: black;
     text-decoration: none;
-
+    padding: 20px 70px;
+    font-size: 20px;
 }
 
-.my-work{
-    justify-content:space-between;
-    display:flex;
-    flex-wrap:wrap;
-}
-
-.work-title{
-    flex:1;
-    display:flex;
-}
-
-.works{
-    flex: 3;
-    flex-wrap:wrap;
-    display:flex;
-    justify-content:space-between;
+.contact-me li a:hover{
+    background-color: var(--secondary-color);
+    font-style: bold;
+    border-radius: 15px;
+    color: white;
 }
