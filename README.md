@@ -7,9 +7,9 @@ Exhibit of my past works, including UX design and coded websites
 * HTML
 * CSS
 
-## Website
-https://anukazan.github.io/portfolio![_C__Users_dolji_OneDrive_Desktop_projects_portfolio_index html](https://user-images.githubusercontent.com/101309179/161420760-d7582cfa-a9e0-4c0a-b772-1bf299259c62.png)
-/
+##Website
+![website image](https://user-images.githubusercontent.com/101309179/161420850-cc648720-93f1-4599-ac4e-71bbc2b8816e.png)
+
 
 ## Contribution
 Made with ❤️ by Anuka
