@@ -20,7 +20,7 @@ header {
     background-image: url("../portfolio/images/anuka.jpg");
     background-size:cover; /* bkgr img completely covers the container leaving no empty space*/
     /*background-position:center;*/
-    background-attachment:fixed;
+    background-attachment:fixed; /* you keep scrolling but image is stationary & gets scrolled past*/
     background-position: 70%; /* 0% - left top edge of img align with container, 100% right bottom. if 2 values, then x and y */
     font-size:large;
     flex-wrap:wrap; /* wrap if content doesnt fit*/
@@ -60,8 +60,8 @@ header nav ul{
 }
 
 header nav li a{
-    padding: 5px 15px;
-    font-size:2vw;
+    padding: 5px 20px;
+    font-size:1.5vw;
 }
 
 header nav li a:hover{
@@ -70,16 +70,13 @@ header nav li a:hover{
     border-radius:15px; /*makes edges rounder*/
 }
 
-section{
-    padding: 50px;
-}
 
 .hero{
     background-image: url("../portfolio/images/anuka.jpg");
     background-size:cover;
     background-position:70%;
     background-attachment: fixed;
-
+    padding: 12vw;
     display:flex;
 
     flex-wrap:wrap;
@@ -92,18 +89,70 @@ section{
     font-size:25px;
 }
 
+.content{
+    padding: 50px;
+    justify-content: space-around;
+}
+
 .about-me{
     width: 80%;
     display:flex;
     flex-wrap:wrap;
     align-items: center;
     justify-content:space-between;
+
 }
 
 .section-title{
-    min-width: 100px;
+    width: 200px;
+    display:flex;
+    margin: 0px;
+    border-right: 5px dotted var(--secondary-color);
+
+}
+
+.section-title h2{
+    
+    /*padding: 0px 50px;*/
+    width: 100%;
+    
 }
 
 .section-text{
-    min-width:auto;
+    width:70%;
+    padding:50px 0px;
+    flex-wrap:wrap;
+    display:flex;
+    justify-content:space-between;
+}
+
+.contact-me ul {
+    list-style:none;
+    color:black;
+    justify-content: space-between;
+    display:flex;
+}
+
+.contact-me li a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.my-work{
+    justify-content:space-between;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.work-title{
+    flex:1;
+    display:flex;
+}
+
+.works{
+    flex: 3;
+    flex-wrap:wrap;
+    display:flex;
+    justify-content:space-between;
 }
