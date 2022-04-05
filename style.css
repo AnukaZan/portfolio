@@ -108,13 +108,19 @@ header nav li a:hover{
 
 }
 
-.about-me h2 {
+.title {
     font-size: 30px;
     flex: 1 30%;
-    border-right: 3px dotted var(--secondary-color);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
 }
 
-.section-text{
+.title h2{
+    padding-right:50px;
+}
+
+.about-text{
     flex: 2 70%;
     flex-wrap:wrap;
     display:flex;
@@ -123,23 +129,22 @@ header nav li a:hover{
 
 }
 
+.border-left{
+    border-left: 3px solid var(--secondary-color);
+    padding-left: 50px;
+}
 
 /* MY WORKS */
 .my-work{
     margin: 50px auto;
-    padding-bottom: 50px;
     width: 80%;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
+    padding-bottom: 50px;
 }
 
-.my-work h2{
-    font-size: 30px;
-    border-right: 3px dotted var(--secondary-color);
-    flex: 1 30%;
-}
 
 .works{
     flex: 2 70%;
@@ -167,6 +172,12 @@ header nav li a:hover{
     object-fit: cover;
 }
 
+.img-size img{
+    height:400px;
+    width: 100%;
+    object-fit:cover;
+}
+
 .work-title{
     position: relative;
     padding: 10px;
@@ -184,13 +195,7 @@ header nav li a:hover{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
-}
-
-.contact-me h2{
-    font-size: 30px;
-    border-right: 3px dotted var(--secondary-color);
-    flex: 1 30%;
+    justify-content: space-around;
 }
 
 .contact-links{
@@ -206,6 +211,10 @@ header nav li a:hover{
     color:black;
     justify-content: space-between;
     display:flex;
+}
+
+.contact-me li{
+    flex: 1;
 }
 
 .contact-me li a {
@@ -287,9 +296,6 @@ header nav li a:hover{
         padding: 30px 15px;
     }
 
-    h2{
-        padding: 0 20px 0 0;
-    }
 
 
 }
