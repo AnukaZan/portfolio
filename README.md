@@ -11,7 +11,7 @@ Exhibit of my past works, including UX design and coded websites
 https://anukazan.github.io/portfolio/
 
 ## Website
-![website image] (image.jpg)
+![Sample Website](image.PNG)
 
 
 ## Contribution
