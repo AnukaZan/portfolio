@@ -7,8 +7,11 @@ Exhibit of my past works, including UX design and coded websites
 * HTML
 * CSS
 
+## Link To Site
+https://anukazan.github.io/portfolio/
+
 ## Website
-![website image](https://user-images.githubusercontent.com/101309179/161420850-cc648720-93f1-4599-ac4e-71bbc2b8816e.png)
+![Sample Website](image.png)
 
 
 ## Contribution
