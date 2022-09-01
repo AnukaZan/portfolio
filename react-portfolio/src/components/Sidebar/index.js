@@ -7,7 +7,7 @@ import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 const Sidebar = () => (
-    <div className='nav-bar'>
+    <header className='nav-bar'>
         <Link className='logo' to='/'>
             <img src={LogoA} alt="logo"/>
             <img className="sub-logo" src={LogoSub} alt="Anuka"/>
@@ -35,7 +35,7 @@ const Sidebar = () => (
                 </a>
             </li>
         </ul>
-    </div>
+    </header>
 )
 
 export default Sidebar;
