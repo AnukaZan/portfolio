@@ -1,0 +1,59 @@
+
+.contact-heading {
+    color: white !important;
+    font-size: 2.5em !important;
+    font-weight: 400;
+    padding-top: 10px !important;
+    
+  }
+
+  .pink{
+    color: #be808b;
+  }
+
+  .contact-section {
+    position: absolute !important;
+    padding-top: 150px !important;
+    font-family: 'Coolvetica';
+    left: 10%;
+  }
+
+  .flat-button{
+    color: #be808b;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid #be808b;
+    margin: 25px;
+    float: left;
+    animation: fadeIn 1s 1.8s backwards;
+    white-space: nowrap;
+
+    &:hover{
+        background: #be808b;
+        color:#333;
+    }
+}
+
+#contact-form{
+    color: white;
+
+    input{
+        width: 400px;
+    }
+    textarea{
+        width: 400px;
+    }
+}
+
+.contact-links{
+    position: absolute;
+    margin-left: 80%;
+    opacity: 0;
+    height: auto;
+    animation: fadeIn 1s linear both;
+    transform: translateX(115%);
+}
