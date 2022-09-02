@@ -10,6 +10,7 @@
         transform: translateY(-50%);
         width: 40%;
         max-height: 90%;
+        padding-right: 20px;
     }
     h1{
         color: #fff;
@@ -75,6 +76,7 @@
 }
 
 .image-zone{
+    padding-left: 80px;
     img{
         width: 50%;
         margin-left: 40%;
@@ -83,4 +85,19 @@
         animation: fadeIn 1s linear both;
         animation-delay: 1.4s;
     }
+
+    p{
+        position: relative;
+        top: 50%;
+        transform: translateX(115%);
+        width: 40%;
+        max-height: 90%;
+        font-family: 'Coolvetica';
+        font-weight: 400;
+        color: #be808b;
+        font-size: 18px;
+        left: 15px;
+        
+        // opacity: 0.6
+        }
 }

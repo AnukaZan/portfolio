@@ -3,7 +3,7 @@ import './App.scss';
 import { Routes, Route } from 'react-router-dom'
 import Layout from './components/Layout'
 import Home from './components/Home'
-import Projects from './components/Projects'
+import Projects from './components/Projects/Projects'
 import Footer from "./components/Footer";
 
 
