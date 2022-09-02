@@ -27,7 +27,7 @@ const Sidebar = () => (
             </NavLink>
             
         </nav>
-        <ul>
+        {/* <ul>
             <li>
                 <a target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/anuka-zan/'>
                     <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e"/>
@@ -38,7 +38,7 @@ const Sidebar = () => (
                     <FontAwesomeIcon icon={faGithub} color="#4d4d4e"/>
                 </a>
             </li>
-        </ul>
+        </ul> */}
     </header>
 )
 
