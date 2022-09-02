@@ -77,6 +77,13 @@
             }
         }
 
+        a.projects{
+            &:after{
+                content: 'PROJECTS';
+            }
+        }
+
+
         a.about-link{
             &:after{
                 content: 'ABOUT';

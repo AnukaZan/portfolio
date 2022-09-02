@@ -12,10 +12,11 @@ const Home = () => {
 
                   <span className = "pink"> Anuka</span>,
                 <br/>
-                Web Developer & UX Designer
+                Web Developer and <br/>UX Designer
                 </h1>
                 <h2> Full-Stack Developer /  Javascript Expert / Ramen Enthusiast </h2>
                 <Link to="/contact" className='flat-button'> CONTACT ME </Link>
+                <Link to="/projects" className='flat-button'> VIEW PROJECTS </Link>
             </div>
         </div>
     )
